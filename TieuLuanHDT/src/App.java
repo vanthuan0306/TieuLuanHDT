@@ -29,7 +29,7 @@ public class App {
             int soHangHoaTonKho = input.nextInt();
             System.out.println("Gia nhap:");
             int giaNhapHangHoa = input.nextInt();
-            System.out.println("ngay dd/mm/yyyy:");
+            System.out.println("Ngay dd/mm/yyyy:");
             input.nextLine();
             String ngayHangHoaNhapKho = input.nextLine();
             System.out.println("Loai(Loai TP, Loai SS, Nhan hieu DM):");
