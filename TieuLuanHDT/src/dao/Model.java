@@ -59,7 +59,7 @@ public class Model {
     public void setNgayHangHoaNhapKho(Date ngayHangHoaNhapKho) {
         Date now = new Date();
         if (ngayHangHoaNhapKho.getTime() > now.getTime() || ngayHangHoaNhapKho == null) {
-            System.out.println("Ngay nhap khong hop le.");
+            //System.out.println("Ngay nhap khong hop le.");
             return;
         }
 

@@ -206,7 +206,7 @@ public class HandleEvent implements EventListener {
         for (Model model : sanPham) {
             tongSoLuong = tongSoLuong + model.getGiaNhapHangHoa();
         }
-        System.out.println("Tong so luong hang hoa: " + tongSoLuong + "đ");
+        System.out.println("Tong gia tri nhap kho: " + tongSoLuong + "vnd");
     }
 
     @Override
@@ -225,7 +225,7 @@ public class HandleEvent implements EventListener {
                 tongSoLuongSS = tongSoLuongSS + model.getSoHangHoaTonKho();
             }
         }
-        System.out.println("Tong so luong hang hoa san su: " + tongSoLuongSS);
+        System.out.println("Tong so luong hang hoa sanh su: " + tongSoLuongSS);
         for (Model model : sanPham) {
             if (model.getLoaiHangHoa().equals("DM")) {
                 tongSoLuongDM = tongSoLuongDM + model.getSoHangHoaTonKho();

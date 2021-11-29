@@ -30,27 +30,27 @@ public class Database {
                 sanPham.add(new SanhSu("SS", "SS08", "Bo 10 chen sanh loai 1", 19, 250000,
                                 new SimpleDateFormat("dd/MM/yyyy").parse("20/10/2009"), "Nha bep"));
                 sanPham.add(new SanhSu("SS", "SS09", "Chen gom loại 1", 100, 200000,
-                                new SimpleDateFormat("dd/MM/yyyy").parse("20/10/2021"), "Nha bep"));
+                                new SimpleDateFormat("dd/MM/yyyy").parse("28/10/2021"), "Nha bep"));
                 sanPham.add(new SanhSu("SS", "SS10", "Phat thu lien hoa", 10, 430000,
-                                new SimpleDateFormat("dd/MM/yyyy").parse("20/10/2020"), "Trang tri"));
+                                new SimpleDateFormat("dd/MM/yyyy").parse("25/10/2020"), "Trang tri"));
                 sanPham.add(new SanhSu("SS", "SS11", "Binh luu ly pha le", 10, 600000,
-                                new SimpleDateFormat("dd/MM/yyyy").parse("20/10/2019"), "Trang tri"));
+                                new SimpleDateFormat("dd/MM/yyyy").parse("22/10/2019"), "Trang tri"));
                 sanPham.add(new SanhSu("SS", "SS19", "10 dia sanh d=15 laoi 2", 10, 120000,
-                                new SimpleDateFormat("dd/MM/yyyy").parse("20/10/2019"), "Nha bep"));
+                                new SimpleDateFormat("dd/MM/yyyy").parse("11/12/2019"), "Nha bep"));
 
                                 
                 sanPham.add(new DienMay("DM", "DM12", "Iphone 13 pro max 512Gb Blue ", 30, 45000000,
                                 new SimpleDateFormat("dd/MM/yyyy").parse("23/01/2021"), "Dien tu"));
                 sanPham.add(new DienMay("DM", "DM13", "Google Pixel 6Pro", 10, 25000000,
-                                new SimpleDateFormat("dd/MM/yyyy").parse("10/10/2021"), "Dien tu"));
+                                new SimpleDateFormat("dd/MM/yyyy").parse("10/06/2021"), "Dien tu"));
                 sanPham.add(new DienMay("DM", "DM14", "Máy lạnh Toshiba", 18, 7000000,
-                                new SimpleDateFormat("dd/MM/yyyy").parse("10/10/2021"), "Dien lanh"));
+                                new SimpleDateFormat("dd/MM/yyyy").parse("18/10/2021"), "Dien lanh"));
                 sanPham.add(new DienMay("DM", "DM15", "May giat Philip", 22, 8300000,
-                                new SimpleDateFormat("dd/MM/yyyy").parse("10/10/2021"), "Dien lanh"));
+                                new SimpleDateFormat("dd/MM/yyyy").parse("10/10/2018"), "Dien lanh"));
                 sanPham.add(new DienMay("DM", "DM16", "Tu Lanh Shap", 17, 6000000,
-                                new SimpleDateFormat("dd/MM/yyyy").parse("10/10/2021"), "Dien lanh"));
+                                new SimpleDateFormat("dd/MM/yyyy").parse("13/10/2020"), "Dien lanh"));
                 sanPham.add(new DienMay("DM", "DM17", "Laptop Dell", 15, 22000000,
-                                new SimpleDateFormat("dd/MM/yyyy").parse("10/10/2021"), "Dien tu"));
+                                new SimpleDateFormat("dd/MM/yyyy").parse("11/11/2018"), "Dien tu"));
                 sanPham.add(new DienMay("DM", "DM18", "Dong ho Casio", 7, 900000,
                                 new SimpleDateFormat("dd/MM/yyyy").parse("10/10/2021"), "Dien tu"));
 
